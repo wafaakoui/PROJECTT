@@ -1,8 +1,8 @@
 import './index.css';
 import Navbar from './Navbr'; // Correct import for Navbar
-import Signin from './SignIn'; // Import Signin component
-import Signup from './SignUp'; // Import Signup component
-import AboutUs from './AboutUs';
+import Signin from './pages/login/SignIn'; // Import Signin component
+import Signup from './pages/login/SignUp'; // Import Signup component
+import AboutUs from './pages/about/AboutUs';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 function App() {

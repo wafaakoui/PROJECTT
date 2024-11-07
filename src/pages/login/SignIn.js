@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom";
-import imgg from "./logo.PNG";
+import imgg from "../../assets/logo.PNG";
 import { useState } from "react";
 
 const Signin = () => {
 
     return ( 
         <div className="signin">
+            
             <img className="im" src={imgg} alt="Logo" />
             <h2 className="hh3">Sign in to UniNews</h2>
            <form>

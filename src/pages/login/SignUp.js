@@ -1,12 +1,18 @@
 import { Link } from "react-router-dom";
-import imgg from "./logo.PNG";
+import imgg from "../../assets/logo.PNG";
 
 const Signup = () => {
 
     return (
         <div className="signup">
-            <img className="imm" src={imgg} alt="Logo" />
-            <h2 className="hh33">Sign up to UniNews</h2>
+            <div className="navimage">
+                <img className="imm" src={imgg} alt="Logo" />
+
+            </div>
+            <div className="navimage">
+                <h2 className="hh33">Sign up to UniNews</h2>
+            </div>
+            
             <div className="sss">
                 <form>
                     <label className="jj" htmlFor="name">User Name</label><br />
